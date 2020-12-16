@@ -1,0 +1,26 @@
+<div class="container">
+  <table class="table">
+    <thead>
+        <tr>
+          <th>Groups</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let group of groups" >
+        <td>{{ group.name }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table">
+    <thead>
+        <tr>
+          <th>Clients</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let client of clients" >
+        <td>{{ client.name }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
